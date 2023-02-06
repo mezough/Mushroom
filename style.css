@@ -1,0 +1,321 @@
+
+.navbar {
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(20, 39, 78, 1) 42%, rgba(0, 212, 255, 0.27494747899159666) 100%) !important;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-text {
+    font-size: xx-large;
+    font-weight: 100;
+}
+
+.line2 {
+    font-family: 'Cinzel', serif;
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: 900;
+    margin: 0 5px;
+}
+
+.navbar-toggler {
+    color: aliceblue;
+    border-color: aliceblue;
+    background-color: white;
+
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: burlywood !important;
+}
+
+/* ----------------------------- */
+
+
+.main1 {
+    background-image: url(img/Photos-001/IMG_20221206_160543.jpg);
+    background-size: cover;
+    width: auto;
+    height: 650px;
+    margin-top: 10px;
+    padding: 0;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.overlay {
+    background-color: rgba(0, 68, 255, 0.397);
+    width: auto;
+    height: 650px;
+    background-position: center;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.main1 h2 {
+    color: aliceblue;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.main1 p {
+    width: auto;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.break-line {
+    display: flex;
+    width: 100%;
+    margin: -0 auto;
+}
+
+.main2 {
+    position: relative;
+    background-image: url(img/Photos-001/IMG_20221124_113101_edit_7147836353771802.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main2 h2 {
+    position: absolute;
+    left: 40%;
+    top: -67px;
+    display: flex;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+    margin: 0 auto;
+}
+
+.main2 h2::after {
+    content: "";
+    background-color: rgba(148, 140, 24, 0.301);
+    width: 139px;
+    position: relative;
+    right: 110px;
+    height: 39px;
+    border-radius: 10px;
+}
+
+.main2 .article-1 {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.main2 .overlay-2 {
+    background-color: rgba(0, 68, 255, 0.397);
+    width: 100%;
+    height: 400px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    position: relative;
+}
+
+.main2 .article-1 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+}
+
+/* ------------------------- */
+
+.main3 {
+    position: relative;
+    background-image: url(img/Photos-001/IMG_20221222_080415_edit_7665279911142845.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 5px;
+}
+
+.main3 .article-2 {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.main3 .overlay-3 {
+    background-color: rgba(0, 68, 255, 0.397);
+    width: 100%;
+    height: 400px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    position: relative;
+    padding: 50px;
+}
+
+.main3 .article-2 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+}
+
+/* --------------------------- */
+.main4 {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.main4 h2 {
+    position: absolute;
+    left: 40%;
+    top: -80px;
+    display: flex;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.main4 h2::after {
+    content: "";
+    background-color: rgba(148, 140, 24, 0.301);
+    width: 139px;
+    position: relative;
+    right: 121px;
+    height: 39px;
+    border-radius: 10px;
+}
+
+/* ------------------------- */
+
+.main5 h2 {
+    /* position: absolute; */
+    left: 40%;
+    top: -80px;
+    display: flex;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.main5 h2::after {
+    content: "";
+    background-color: rgba(148, 140, 24, 0.301);
+    width: 139px;
+    position: relative;
+    right: 135px;
+    height: 39px;
+    border-radius: 10px;
+}
+
+.main5 .pics {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+@media (max-width: 575px) {
+    .main5 .pics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 60px;
+        gap: 10px;
+        width: 350px;
+        margin: 0 auto;
+        justify-items: center;
+    }
+}
+@media (max-width: 390px) {
+    .main5 .pics {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 60px;
+        gap: 10px;
+        width: 350px;
+        margin: 0 auto;
+        justify-items: center;
+    }
+}
+
+.main5 .pics img {
+    width: 120px;
+    border-radius: 50%;
+    opacity: 60%;
+}
+
+.contact h2 {
+    left: 40%;
+    top: -80px;
+    display: flex;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.contact h2::after {
+    content: "";
+    background-color: rgba(148, 140, 24, 0.651);
+    width: 71px;
+    position: relative;
+    right: 53px;
+    height: 33px;
+    border-radius: 10px;
+}
+
+.contact{
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(20, 39, 78, 1) 42%, rgba(0, 212, 255, 0.27494747899159666) 100%) !important;
+    font-family: 'El Messiri', sans-serif;
+color: aliceblue;
+
+}
+
+.form-control{
+    width: 50%;
+}
+
+.btn{
+/* background-color: rgb(51, 70, 109) ; */
+/* border: none; */
+}
+
+.btn:hover{
+    background-color: rgba(148, 140, 24, 0.651);
+}
+.btn:{
+    background-color: rgb(51, 70, 109);
+}
+
+.footer .address{
+    padding: 50px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: larger;
+    background-image: url(img/suite/IMG_20221113_123906.jpg);
+    background-position:top;
+    background-attachment: fixed;
+}
+.footer .menue-footer{
+    font-family: 'El Messiri', sans-serif;
+    font-size: larger;
+    text-align: center;
+    background-image: url(img/suite/IMG_20221113_123906.jpg);
+    background-position:top;
+    background-attachment: fixed;
+}
+
+.footer .menue-footer a{
+    color: black;
+    margin-left: 1rem;
+}
+.footer .menue-footer a:hover{
+    color: rgba(148, 140, 24, 0.651);
+    margin-left: 1rem;
+}
+
+#copy-right{
+    margin-top: 50px;
+}
